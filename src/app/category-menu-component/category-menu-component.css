@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+  width: 80%;
+  padding-left: 10%;
+  padding-right: 10%;
+
+}
+
+.menu{
+  background-color: #FB5731;
+  height: 100px;
+}
+
+.box {
+  padding-top: 10px;
+  font-size: 40px;
+  text-align: center;
+
+}
+.box i {
+  padding: 20px;
+}
+
+

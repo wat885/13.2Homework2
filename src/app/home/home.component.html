@@ -1,0 +1,27 @@
+
+ <!-- lab4 -->
+    <app-navbar></app-navbar>
+    <app-search-bar></app-search-bar>
+    <app-top-banner></app-top-banner>
+    <app-category-menu-component></app-category-menu-component>
+
+<div>
+    <h2>{{ title }}</h2>
+    <div class="header">
+        Set Title:<input [(ngModel)]="title">
+    </div>
+</div>
+
+<div>
+    <h2> {{ count }} </h2>
+    <button (click)="countNumber()">Count</button>
+</div>
+
+<ul>
+    <li *ngFor="let item of items">
+        <span *ngIf="item !== 5">{{ item }}</span>
+        <b *ngIf="item === 5">{{ item }}</b>
+    </li>
+</ul>
+
+<app-count></app-count> 

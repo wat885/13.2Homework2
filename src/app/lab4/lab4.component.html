@@ -1,0 +1,11 @@
+<div>
+    <h2> Lab 4</h2>
+
+</div>
+<ul>
+    <li *ngFor="let item of items">
+        
+        <b class="number-even" *ngIf="item%2 === 0">{{ item }}</b>
+        <b class="number-odd" *ngIf="item%2 !== 0">{{ item }}</b>
+    </li>
+</ul>
